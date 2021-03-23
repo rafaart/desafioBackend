@@ -1,0 +1,27 @@
+GET http://localhost:3000/inscritos
+
+###
+
+GET http://localhost:3000/inscritos/6057e31a4246a22d880902ae
+
+###
+
+POST http://localhost:3000/inscritos
+Content-Type: application/json
+
+{
+    "nome": "inscrito0002",
+    "inscritoNoCanal": "Turma Irada"
+}
+
+###
+DELETE http://localhost:3000/inscritos/6057db802b769c3b84709e8a
+
+###
+
+PATCH http://localhost:3000/inscritos/6057dbd67460471cf0ed7503
+Content-Type: application/json
+
+{
+    "nome": "novo nome"
+}
