@@ -19,7 +19,8 @@ rotas.get('/:id', pegarInscrito, (req, res) => {
 rotas.post('/', async (req,res) => {
     const inscrito = new Inscrito({
         nome: req.body.nome,
-        inscritoNoCanal: req.body.inscritoNoCanal
+        inscritoNoCanal: req.body.inscritoNoCanal,
+        descricao: req.body.descricao
     })
     try{
         const novoInscrito = await inscrito.save()

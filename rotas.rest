@@ -10,8 +10,9 @@ POST http://localhost:3000/inscritos
 Content-Type: application/json
 
 {
-    "nome": "inscrito0002",
-    "inscritoNoCanal": "Turma Irada"
+    "nome": "inscrito0004",
+    "inscritoNoCanal": "Turma Irada2",
+    "descricao": "o menino da camisa amalela"
 }
 
 ###

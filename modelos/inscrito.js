@@ -9,6 +9,10 @@ const inscritoSchema = mongoose.Schema({
         type: String,
         require: true
     },
+    descricao: {
+        type: String,
+        require:true
+    },
     
     dataDeInscricao:{
         type: Date,
